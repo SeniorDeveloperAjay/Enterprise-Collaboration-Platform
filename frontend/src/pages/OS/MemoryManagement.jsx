@@ -106,7 +106,7 @@ function MemoryManagement() {
     setLoadingEnterpriseData(true)
 
     try {
-      const response = await fetch("http://localhost:5000/api/tasks")
+      const response = await fetch("https://enterprise-collaboration-backend.onrender.com/api/tasks")
 
       if (!response.ok) {
         throw new Error("Unable to fetch tasks.")
@@ -175,7 +175,7 @@ function MemoryManagement() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/documents"
+        "https://enterprise-collaboration-backend.onrender.com/api/documents"
       )
 
       if (!response.ok) {

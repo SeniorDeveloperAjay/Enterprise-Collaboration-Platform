@@ -431,7 +431,7 @@ node server.js
 The backend runs on:
 
 ```text
-http://localhost:5000
+https://enterprise-collaboration-backend.onrender.com
 ```
 
 ---

@@ -97,8 +97,8 @@ function Synchronization() {
       try {
         const [tasksResponse, documentsResponse] =
           await Promise.all([
-            fetch("http://localhost:5000/api/tasks"),
-            fetch("http://localhost:5000/api/documents"),
+            fetch("https://enterprise-collaboration-backend.onrender.com000/api/tasks"),
+            fetch("https://enterprise-collaboration-backend.onrender.com/api/documents"),
           ])
 
         const resources = []

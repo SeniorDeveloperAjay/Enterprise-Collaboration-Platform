@@ -64,7 +64,7 @@ function FileManagement() {
     setEnterpriseMessage("Loading enterprise documents...")
 
     try {
-      const response = await fetch("http://localhost:5000/api/documents")
+      const response = await fetch("https://enterprise-collaboration-backend.onrender.com/api/documents")
 
       if (!response.ok) {
         throw new Error("Unable to fetch enterprise documents.")
